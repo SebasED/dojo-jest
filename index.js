@@ -26,6 +26,6 @@ app.post('/codebreaker', function (req, res){
     }else{
         throw new error ('Ingrese a la opción activate para ingresar número para el codebreaker');
     }
-})
+})  
  
 app.listen(3000)
